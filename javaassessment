@@ -11,7 +11,7 @@ function mintNFT(name, price, gender, updatedyear) {
         "updatedyear": updatedyear
     }
     NFTs.push(NFT);
-    console.log("Minted: " + _name);
+    console.log("Minted: " + name);
 }
 
 // create a "loop" that will go through an "array" of NFT's
